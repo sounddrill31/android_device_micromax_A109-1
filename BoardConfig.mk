@@ -43,7 +43,7 @@ TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 endif
-BOARD_CUSTOM_BOOTIMG_MK := device/micromax/a117/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/micromax/A109/custombootimg.mk
 # Partitions
 # BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_FLASH_BLOCK_SIZE := 512
